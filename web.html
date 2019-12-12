@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel = "stylesheet" href="web.css">
+</head>
+<body>
+	<h1 class = "title" >Zara's Dresses</h1>
+
+	<!-- <div class = "banner"><img src = "images/banner.jpg" class = "bannerImg"></div> -->
+	<!-- <div class = "Slider">
+		<div id = "slider">
+			<figure>
+				<img src = "images/banner.jpg">
+				<img src = "images/banner.jpg">
+				<img src = "images/banner.jpg">
+				<img src = "images/banner.jpg">
+			</figure>
+		</div>
+	</div> -->
+
+	<div class = "banner">
+		<img class="bannerImg horizontal-center" src="images/banner.jpg" >
+	  	<img class="bannerImg horizontal-center" src="images/long2.jpg" >
+	  	<img class="bannerImg horizontal-center" src="images/banner.jpg" >
+	</div>
+
+	<!-- <div class="w3-content w3-section" style="max-width:500px">
+		<img class="mySlides" src="images/banner.jpg" style="width:100%">
+	  <img class="mySlides" src="images/long2.jpg" style="width:100%">
+	  <img class="mySlides" src="images/banner.jpg" style="width:100%">
+	</div> -->
+
+	<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("bannerImg");
+				for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			}
+
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 2000); // Change image every 2 seconds
+		}
+	</script>
+	
+
+	<div class = "header">
+		<ul class = "horizontal-center">
+			<li class = "linkRight"><a href="#" class = "headerLink">Home</a></li>
+			<li class = "linkRight"><a href = "index.html" class = "headerLink">About</a></li>
+			<li class = "linkRight"><a href = "product.html" class = "headerLink">Product</a></li>
+			<li><a href = "contact.html" class = "headerLink">Contact Us</a></li>
+
+		</ul>
+	</div>
+
+	<div class = "container">
+		<div class = "Dresses">
+			<div class = "field fieldRight">
+				<div class = "dress vertical-center"> MAXI </div>
+			</div>
+
+			<div class = "field">
+				<div class = "dress vertical-center"> WEDDING </div>
+			</div>
+
+			<div class = "field fieldRight">
+				<div class = "dress vertical-center"> WRAPS </div>
+			</div>
+
+			<div class = "field">
+				<div class ="dress vertical-center"> LONG </div>
+			</div>
+
+			<div class = "field fieldRight">
+				<div class ="dress vertical-center">SHORT</div>
+			</div>
+			
+			<div class = "field">
+				<div class = "dress vertical-center"> HIGH-LOW </div>
+			</div>
+		</div>
+
+		<div class ="dressText vertical-center">
+			<div class = "dressWrapper center">
+				<h2 class = "DRESS"> DRESS </h2>
+				A DRESS: is a garment traditionally worn by women and girls consisting of a skirt attached to its bodice.it can be made in different ways and formats it is also designed in different and beuatiful ways ,a dresss can be used for different occation and event it is the most  comfortable clothe for a woman.s  
+			</div>
+			
+		</div>
+
+	</div>
+
+	
+
+</body>
+</html>

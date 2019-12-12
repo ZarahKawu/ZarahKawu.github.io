@@ -1,0 +1,116 @@
+.title{
+	text-align: center;
+	background:black;
+
+}
+.title{
+	color: white;
+
+}
+.zara2img{
+	width:350px;
+	height:255px;
+	float: left;
+}
+
+.banner{
+	text-align: center;
+	background: black; 
+	color: white;
+	position: relative;
+	float: left;
+	border: 2px solid green;
+	width: 100%;
+}
+
+.header:hover{
+	background-color: pink;
+}
+
+
+.text{
+	float: left;
+	width: 500px;
+}
+
+.bottomText{
+	clear: left;
+}
+
+.aboutMe{
+	float: left;
+	width: 960px;
+	position: relative;
+}
+
+.meText{
+	margin-top: 20px;
+}
+
+.horizontal-center{
+	left: 50%;
+  	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.header ul{
+	margin: 0;
+	float: left;
+}
+
+.header{
+	/*border: 1px solid black;*/
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center; 
+	position: relative;
+	background: black; 
+	color: white;
+	transition: 0.5s\; 
+	cursor: pointer;
+
+}
+
+.header ul{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.header ul li{
+	list-style-type: none;
+	border-right: 1px solid black;
+	float: left;
+	padding: 15px 17px;
+}
+
+.linkRight{
+	margin-right: 10px; 
+}
+
+.header ul li a{
+	color: white;
+	font-size: 18px; 
+}
+
+.aboutDresses{
+	position: relative;
+	float: left;
+	width: 100%;
+	border: 1px solid black;
+	margin-top: 10px; 
+}
+
+.aboutDressHeader{
+	text-align: center;
+}
+
+
+body{
+	/*background: url("");*/
+	/*color: white;*/
+}
+
+
+

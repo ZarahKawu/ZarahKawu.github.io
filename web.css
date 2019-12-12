@@ -1,0 +1,153 @@
+.title, .banner{
+	text-align: center;
+	background: black; 
+	position: relative;
+}
+
+.title{
+	color: white;
+}
+
+.bannerImg{
+	width: 800px;
+	height: 533.33px;
+	display: none;
+	position: relative; 
+}
+
+.header ul{
+	margin: 0;
+	float: left;
+}
+
+.header{
+	/*border: 1px solid black;*/
+	float: left;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center; 
+	position: relative;
+	background: black; 
+	color: white;
+
+}
+
+.header ul{
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.header ul li{
+	list-style-type: none;
+	border-right: 1px solid black;
+	float: left;
+	padding: 15px 17px;
+}
+
+.linkRight{
+	margin-right: 10px; 
+}
+
+.header ul li a{
+	color: white;
+	font-size: 18px; 
+}
+
+.horizontal-center{
+	left: 50%;
+  	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.vertical-center{
+	top: 50%;
+  	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.center{
+	top: 50%;
+	left: 50%;
+  	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+
+
+.Dresses{
+	float: left;
+	width:80%;
+	/*background: green;*/
+}
+
+.field{
+	float:left;
+	width:45%;
+	position: relative;
+	height: 100px; 
+	background-color: pink;
+	margin-bottom: 10px; 
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.field:hover{
+	background: #cc338b;
+}
+
+.fieldRight{
+	margin-right: 10%; 
+}
+
+.dress{
+	position: relative;
+	text-align:center;
+	font-weight: bold;
+}
+
+.container{
+	float: left;
+	width: 100%;
+	border: 1px solid black;
+	margin-top: 10px; 
+	position: relative; 
+	height: 320px;
+
+}
+
+.dressText{
+	background: purple;
+	position: relative;
+	float: left;
+	width: 20%;
+	font-size: ;
+	max-height: 320px;
+	overflow-y: scroll;
+}
+
+.dressWrapper{
+	width: 95%;
+	position: relative;
+	font-style: italic;
+	font-size: 18px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  	.bannerImg{
+		width: 500px;
+		height: 333.33px;
+	}
+}
+
+
+
+
+
+
+
+
+
